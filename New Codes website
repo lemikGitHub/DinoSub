@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head> 
+<title>
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<body> <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        </div>
+    </div>
+  </div>
+</body>
+This is just a basic example, Bootstrap has many more classes and elements you can use to customize the template and make it look exactly the way you want.
+
+You can also use other frameworks like Foundation, Bulma, TailwindCSS or even use pre-made templates from websites such as HTML5 UP, W3 Layouts, etc.
+
+
+
+
+ 
+</style>
+</head>
+<body>
+<h1></h1>
+<p>Dino Sub</p>
+<p>A Game where everyones is a winner Win</p>
+  <p>By Asu, Kyle And Brook <p>
+  <p> Instructions </p> You should use the up and down Arrow to swich dementions and space to jump  
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- keep the line below for OpenProcessing compatibility -->
+	<script src="https://openprocessing.org/openprocessing_sketch.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+	<script src="mySketch.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>   
+	
+</body>
+
+</html>
