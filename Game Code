@@ -1,0 +1,43 @@
+var dinoY = 400
+var jumpDebounce = false
+const jumpConstant = 5;
+var jumpStage = 0;
+
+function setup() {
+	createCanvas(1000,500);
+	background(100);
+	rectMode(CENTER)
+}
+
+function draw() {
+	clear();
+	dinoSprite(200,dinoY)
+	if(jumpDebounce==true){
+		if(jumpStage<25){
+			dinoY -= jumpConstant
+		}else{
+			dinoY += jumpConstant
+		}
+		jumpStage+=1
+		if(jumpStage==50){
+			jumpStage = 0
+		}
+	}
+}        
+
+function dinoSprite(x,y){
+	fill(127.5)
+	rect(x,y,40,30)
+	rect(x+30,y-25,40,30)
+	rect(x-15,y+15,10,30)
+	rect(x,y+15,10,30)
+	rect(x-25,y+5,10,5)
+	fill(255)
+	rect(x+30,y-30,5,5)
+}
+
+function keyPressed(){
+	if(key=="w"&&jumpDebounce==false){
+		jumpDebounce=true;
+	}
+} 
